@@ -1,0 +1,24 @@
+{
+  "productTypes": [
+    {
+      "id": "tiles",
+      "name": "Luxury Tiles",
+      "slug": "tiles"
+    },
+    {
+      "id": "bathware",
+      "name": "Bathware Solutions",
+      "slug": "bathware"
+    },
+    {
+      "id": "sanitaryware",
+      "name": "Sanitaryware",
+      "slug": "sanitaryware"
+    },
+    {
+      "id": "faucets",
+      "name": "Faucets & Fittings",
+      "slug": "faucets"
+    }
+  ]
+}

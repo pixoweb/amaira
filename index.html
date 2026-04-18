@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaira Tiles & Bathware - Redefining Luxury Spaces</title>
+    <meta name="description"
+        content="Discover premium tiles, bathware, and architectural surfaces to design your dream space. Experience the elegance of Amaira.">
+    <link href="/assets/css/tailwind.css" rel="stylesheet">
+    <script src="/components/navbar.js" defer></script>
+    <script src="/components/footer.js" defer></script>
+    <script src="/components/animations.js" defer></script>
+</head>
+
+<body class="antialiased selection:bg-gold selection:text-dark">
+
+    <app-navbar></app-navbar>
+
+    <!-- HERO SECTION -->
+    <header class="relative h-screen w-full overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <video autoplay loop muted playsinline class="w-full h-full object-cover object-center">
+                <source src="/assets/bgvideo.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+
+        <div
+            class="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 max-w-5xl mx-auto pt-[30px]">
+            <h1 class="text-5xl md:text-7xl font-light text-white mb-6 leading-tight reveal"
+                style="transition-delay: 200ms;">
+                Redefining <br /><span class="font-semibold">Luxury Spaces</span>
+            </h1>
+            <p class="text-silver font-light md:text-lg mb-10 max-w-2xl reveal" style="transition-delay: 400ms;">
+                Elevate your interiors with our meticulously crafted tiles, sanitaryware, and bath fittings. Art meets
+                architecture.
+            </p>
+            <a href="/products/"
+                class="group reveal relative inline-flex items-center justify-center px-8 py-4 px-10 text-sm tracking-widest text-white uppercase bg-transparent border border-white hover:bg-white hover:text-dark transition-all duration-500 overflow-hidden"
+                style="transition-delay: 600ms;">
+                <span class="relative z-10">Explore Collection</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- PRODUCT CATEGORIES -->
+    <section class="py-32 px-6 md:px-12 bg-dark">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 reveal">
+                <div>
+                    <h2 class="text-3xl md:text-5xl font-light">Curated <span
+                            class="font-semibold text-gold">Categories</span></h2>
+                </div>
+                <a href="/products/"
+                    class="block mt-6 md:mt-0 text-sm tracking-wider uppercase text-silver hover:text-white transition group">
+                    View All <span
+                        class="inline-block transform group-hover:translate-x-1 transition-transform ml-1">→</span>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Tile 1 -->
+                <a href="/products/" class="group block relative h-[450px] image-zoom-container reveal">
+                    <img src="/assets/tiles.jpg"
+                        alt="Premium Tiles" class="w-full h-full object-cover" />
+                    <div class="absolute inset-0 card-overlay"></div>
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <h3
+                            class="text-2xl font-light text-white mb-2 transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                            Ceramic Tiles</h3>
+                        <p
+                            class="text-sm text-silver opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0 duration-500">
+                            Wall & Floor Solutions</p>
+                    </div>
+                </a>
+
+                <!-- Tile 2 -->
+                <a href="/products/" class="group block relative h-[450px] image-zoom-container reveal"
+                    style="transition-delay: 100ms;">
+                    <img src="/assets/bathware.jpg"
+                        alt="Bathware" class="w-full h-full object-cover" />
+                    <div class="absolute inset-0 card-overlay"></div>
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <h3
+                            class="text-2xl font-light text-white mb-2 transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                            Bathware</h3>
+                        <p
+                            class="text-sm text-silver opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0 duration-500">
+                            Luxurious Bathtubs</p>
+                    </div>
+                </a>
+
+                <!-- Tile 3 -->
+                <a href="/products/" class="group block relative h-[450px] image-zoom-container reveal"
+                    style="transition-delay: 200ms;">
+                    <img src="/assets/sanitary.jpg"
+                        alt="Sanitaryware" class="w-full h-full object-cover" />
+                    <div class="absolute inset-0 card-overlay"></div>
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <h3
+                            class="text-2xl font-light text-white mb-2 transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                            Sanitaryware</h3>
+                        <p
+                            class="text-sm text-silver opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0 duration-500">
+                            Modern Closets</p>
+                    </div>
+                </a>
+
+                <!-- Tile 4 -->
+                <a href="/products/" class="group block relative h-[450px] image-zoom-container reveal"
+                    style="transition-delay: 300ms;">
+                    <img src="/assets/faucet.jpg"
+                        alt="Faucets" class="w-full h-full object-cover" />
+                    <div class="absolute inset-0 card-overlay"></div>
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <h3
+                            class="text-2xl font-light text-white mb-2 transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                            Faucets & Fittings</h3>
+                        <p
+                            class="text-sm text-silver opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0 duration-500">
+                            Premium Finishes</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRAND STORY -->
+    <section class="py-24 px-6 md:px-12 bg-surface">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="w-full md:w-1/2 image-zoom-container reveal">
+                <img src="/assets/amairaabout.jpg"
+                    alt="Luxury Architecture" class="w-full h-auto md:h-[600px] object-cover" />
+            </div>
+            <div class="w-full md:w-1/2 reveal" style="transition-delay: 200ms;">
+                <span class="text-gold uppercase tracking-[0.2em] text-sm mb-4 block">The Amaira Legacy</span>
+                <h2 class="text-4xl md:text-5xl font-light mb-8 leading-tight">Masterpieces <br />for everyday <span
+                        class="font-semibold">living.</span></h2>
+                <p class="text-silver font-light leading-relaxed mb-8">
+                    Born from a passion for exquisite design and uncompromising quality, Amaira curates the world's
+                    finest architectural surfaces and bath fittings. We believe that your home should be a canvas of
+                    elegance, combining structural integrity with breathtaking aesthetics.
+                </p>
+                <div class="grid grid-cols-2 gap-8 mb-10 border-t border-white/10 pt-8">
+                    <div>
+                        <h4 class="text-3xl font-semibold text-white mb-2">25+</h4>
+                        <p class="text-sm text-silver font-light">Years of Excellence</p>
+                    </div>
+                    <div>
+                        <h4 class="text-3xl font-semibold text-white mb-2">5k+</h4>
+                        <p class="text-sm text-silver font-light">Projects Completed</p>
+                    </div>
+                </div>
+                <a href="/about/"
+                    class="text-white text-sm tracking-widest uppercase border-b border-gold pb-1 hover:text-gold transition-colors block w-max">Discover
+                    Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="py-32 px-6 md:px-12 bg-darker">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-light mb-20 reveal">Why Choose <span
+                    class="font-semibold text-gold">Amaira</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="reveal">
+                    <div
+                        class="w-16 h-16 mx-auto border border-white/20 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium mb-3">Premium Quality</h3>
+                    <p class="text-silver text-sm font-light leading-relaxed">Crafted with precision using the finest
+                        materials built to last a lifetime.</p>
+                </div>
+
+                <div class="reveal" style="transition-delay: 100ms;">
+                    <div
+                        class="w-16 h-16 mx-auto border border-white/20 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium mb-3">Modern Designs</h3>
+                    <p class="text-silver text-sm font-light leading-relaxed">Award-winning aesthetics that blend
+                        seamlessly with contemporary architecture.</p>
+                </div>
+
+                <div class="reveal" style="transition-delay: 200ms;">
+                    <div
+                        class="w-16 h-16 mx-auto border border-white/20 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium mb-3">Durable Materials</h3>
+                    <p class="text-silver text-sm font-light leading-relaxed">Engineered for resilience, ensuring your
+                        spaces remain beautiful for decades.</p>
+                </div>
+
+                <div class="reveal" style="transition-delay: 300ms;">
+                    <div
+                        class="w-16 h-16 mx-auto border border-white/20 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium mb-3">Trusted Brand</h3>
+                    <p class="text-silver text-sm font-light leading-relaxed">Preferred by top architects and interior
+                        designers nationwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="py-32 px-6 md:px-12 bg-surface">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20 reveal">
+                <span class="text-gold uppercase tracking-[0.2em] text-sm mb-4 block">Client Success</span>
+                <h2 class="text-3xl md:text-5xl font-light text-white">What Our <span class="font-semibold text-gold">Clients Say</span></h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-darker p-8 md:p-12 border border-white/5 hover:border-gold/30 transition-colors duration-500 rounded-lg reveal flex flex-col group">
+                    <div class="mb-6">
+                        <svg class="w-10 h-10 text-gold/30 group-hover:text-gold transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                    </div>
+                    <div class="flex-grow mb-8">
+                        <p class="text-silver font-light leading-relaxed text-lg">"The quality of the ceramic tiles from Amaira completely transformed our new home. The team was exceptionally professional and helped us find the perfect match for our aesthetic vision. Highly recommended for luxury projects."</p>
+                    </div>
+                    <div class="flex items-center pt-6 mt-auto">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop" class="w-10 h-10 rounded-full object-cover border border-gold/40 shadow-sm flex-shrink-0" alt="Rajesh Singhania" />
+                        <div class="pl-[15px]">
+                            <h4 class="text-white font-medium text-lg">Rajesh Singhania</h4>
+                            <span class="text-xs text-silver/60 uppercase tracking-widest">Home Owner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-darker p-8 md:p-12 border border-white/5 hover:border-gold/30 transition-colors duration-500 rounded-lg reveal flex flex-col group" style="transition-delay: 100ms;">
+                    <div class="mb-6">
+                        <svg class="w-10 h-10 text-gold/30 group-hover:text-gold transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                    </div>
+                    <div class="flex-grow mb-8">
+                        <p class="text-silver font-light leading-relaxed text-lg">"As an interior designer, I am very particular about the products I use. Amaira's bathware collection is unparalleled in both style and durability. They are my go-to destination for high-end client installations."</p>
+                    </div>
+                    <div class="flex items-center pt-6 mt-auto">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop" class="w-10 h-10 rounded-full object-cover border border-gold/40 shadow-sm flex-shrink-0" alt="Ananya Sharma" />
+                        <div class="pl-[15px]">
+                            <h4 class="text-white font-medium text-lg">Ananya Sharma</h4>
+                            <span class="text-xs text-silver/60 uppercase tracking-widest">Interior Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-darker p-8 md:p-12 border border-white/5 hover:border-gold/30 transition-colors duration-500 rounded-lg reveal flex flex-col group" style="transition-delay: 200ms;">
+                    <div class="mb-6">
+                        <svg class="w-10 h-10 text-gold/30 group-hover:text-gold transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                    </div>
+                    <div class="flex-grow mb-8">
+                        <p class="text-silver font-light leading-relaxed text-lg">"We partnered with Amaira for our commercial building project. The sanitaryware units and large-format architectural surfaces supplied were flawless. Their attention to detail and timely delivery made all the difference."</p>
+                    </div>
+                    <div class="flex items-center pt-6 mt-auto">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" class="w-10 h-10 rounded-full object-cover border border-gold/40 shadow-sm flex-shrink-0" alt="Vikram Desai" />
+                        <div class="pl-[15px]">
+                            <h4 class="text-white font-medium text-lg">Vikram Desai</h4>
+                            <span class="text-xs text-silver/60 uppercase tracking-widest">Architect, Delhi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="relative py-32 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2069&auto=format&fit=crop"
+                alt="Showroom" class="w-full h-full object-cover object-center filter brightness-50" />
+            <div class="absolute inset-0 bg-dark/60"></div>
+        </div>
+        <div class="relative z-10 text-center px-4 max-w-3xl mx-auto reveal">
+            <h2 class="text-4xl md:text-6xl font-light text-white mb-6">Design Your <span
+                    class="font-semibold text-gold">Dream Space</span></h2>
+            <p class="text-silver font-light mb-10 text-lg">Visit our flagship showroom to experience the absolute
+                pinnacle of ceramic engineering and bathware luxury.</p>
+            <a href="/contact/"
+                class="inline-block px-12 py-4 bg-gold text-dark font-medium uppercase tracking-widest text-sm hover:bg-white transition-colors duration-300">Visit
+                Showroom</a>
+        </div>
+    </section>
+
+    <app-footer></app-footer>
+</body>
+
+</html>
